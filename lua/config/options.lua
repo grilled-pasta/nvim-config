@@ -9,3 +9,8 @@ vim.opt.swapfile = false
 vim.diagnostic.config({ virtual_text = true })
 vim.opt.splitbelow = true
 vim.opt.splitright = true
+
+vim.opt.shell = "/usr/bin/fish"
+vim.opt.shellcmdflag = "-c"
+vim.opt.shellquote = ""
+vim.opt.shellxquote = ""
